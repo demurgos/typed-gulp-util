@@ -1,3 +1,8 @@
-import test = require('blue-tape');
+import * as test from 'blue-tape';
 
-import gulpUtil = require('gulp-util');
+import * as gulpUtil from 'gulp-util';
+
+test('test', (t) => {
+  t.plan(1);
+  t.equal(gulpUtil.linefeed, '\n');
+});

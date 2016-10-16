@@ -12,6 +12,7 @@
   "dependencies": {
     "chalk": "registry:npm/chalk#1.1.1+20160812215109",
     "dateformat": "registry:npm/dateformat#1.0.0+20160723033700",
+    "minimist": "registry:npm/minimist#1.0.0+20160723033700",
     "through2": "registry:npm/through2#2.0.0+20160817101636",
     "vinyl": "registry:npm/vinyl#1.2.0+20160817093728"
   }

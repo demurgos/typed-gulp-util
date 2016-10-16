@@ -1,4 +1,4 @@
-import * as through2 from "through2";
+import * as through2 from 'through2';
 
 /**
  * Returns a stream that does nothing but pass data straight through.

@@ -1,1 +1,3 @@
-export var env: any;
+import {ParsedArgs} from 'minimist';
+
+export var env: ParsedArgs & string;
