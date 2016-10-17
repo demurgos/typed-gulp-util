@@ -4,7 +4,7 @@ import dateformat = require("dateformat");
 // import beeper = require("beeper");
 // import replaceExt = require("replace-ext");
 
-export const File: typeof vinyl;
+export class File extends vinyl {}
 export type File = typeof vinyl;
 /**
  * Replaces a file extension in a path. Returns the new path.
