@@ -14,9 +14,7 @@ export namespace File {
  */
 export function replaceExtension(path: string, newExtension: string): string;
 export const colors: typeof chalk;
-export type colors = typeof chalk;
 export const date: typeof dateformat;
-export type date = typeof dateformat;
 export {log} from './lib/log';
 export {template} from './lib/template';
 export {env} from './lib/env';
