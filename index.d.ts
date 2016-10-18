@@ -1,11 +1,14 @@
-import vinyl = require("vinyl");
-import chalk = require("chalk");
-import dateformat = require("dateformat");
-// import beeper = require("beeper");
-// import replaceExt = require("replace-ext");
+import vinyl = require('vinyl');
+import chalk = require('chalk');
+import dateformat = require('dateformat');
+// import beeper = require('beeper');
+// import replaceExt = require('replace-ext');
 
 export class File extends vinyl {}
-export type File = typeof vinyl;
+export namespace File {
+  export interface FileOptions extends vinyl.FileOptions {}
+  export interface PipeOptions extends vinyl.PipeOptions {}
+}
 /**
  * Replaces a file extension in a path. Returns the new path.
  */
